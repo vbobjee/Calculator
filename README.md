@@ -1,3 +1,5 @@
 # Calculator
 Javascript Calculator
-A mockup of Apple calculator’s design and windows calculator’s functionality. Built using HTML, CSS and JavaScript
+A mockup of Apple calculator’s design and windows calculator’s functionality. Built using HTML, CSS and JavaScript.
+
+https://vbobjee.github.io/Calculator/index.html
