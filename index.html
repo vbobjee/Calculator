@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Javascript Calculator</title>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class="main">
+        <div class="header text-right">
+            <i class="fa fa-history" title="History" id="history"></i>
+            <div id="equation" class="position"></div>
+            <div id="result" class="position"></div>
+        </div>
+        <div class="input">
+            <div id="historyCont">
+                <i class="fa fa-trash" title="Delete" id="delete"></i>
+            </div>
+            <div id="inputCont">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default" id="ce">CE</button>
+                    <button type="button" class="btn btn-default" id="c">C</button>
+                    <button type="button" class="btn btn-default" id="%">%</button>
+                    <button type="button" class="btn1 btn-default" id="+">+</button>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default" id="9">9</button>
+                    <button type="button" class="btn btn-default" id="8">8</button>
+                    <button type="button" class="btn btn-default" id="7">7</button>
+                    <button type="button" class="btn1 btn-default" id="-">-</button>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default" id="6">6</button>
+                    <button type="button" class="btn btn-default" id="5">5</button>
+                    <button type="button" class="btn btn-default" id="4">4</button>
+                    <button type="button" class="btn1 btn-default" id="*">×</button>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default" id="3">3</button>
+                    <button type="button" class="btn btn-default" id="2">2</button>
+                    <button type="button" class="btn btn-default" id="1">1</button>
+                    <button type="button" class="btn1 btn-default" id="/">÷</button>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default cornerL" id="0">0</button>
+                    <button type="button" class="btn btn-default" id="toggle">±</button>
+                    <button type="button" class="btn btn-default" id=".">.</button>
+                    <button type="button" class="btn1 btn-default cornerR" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
